@@ -4,7 +4,7 @@
   "description": "App de Directorio de Consejería - Iglesia Bolívar",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
+    "start": "npx serve -s . -l tcp://0.0.0.0:$PORT",
     "dev": "npx serve ."
   },
   "keywords": [],

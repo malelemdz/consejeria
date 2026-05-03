@@ -1,0 +1,16 @@
+{
+  "name": "consejeria-iglesia-bolivar",
+  "version": "1.0.0",
+  "description": "App de Directorio de Consejería - Iglesia Bolívar",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [],
+  "author": "Ministerio de Consejería",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "generos": {
+      "1": "Masculino",
+      "2": "Femenino"
+    },
+    "categorias": {
+      "1": { "titulo": "Hombres", "sub": "" },
+      "2": { "titulo": "Mujeres", "sub": "" },
+      "3": { "titulo": "Matrimonios", "sub": "" },
+      "4": { "titulo": "Niños", "sub": "" },
+      "5": { "titulo": "Adolescentes", "sub": "13 a 17 años" },
+      "6": { "titulo": "Jóvenes", "sub": "18 a 24 años" },
+      "7": { "titulo": "Jóvenes Adultos", "sub": "Mayores de 25 años" },
+      "8": { "titulo": "Adultos", "sub": "" },
+      "9": { "titulo": "Adultos Mayores", "sub": "" }
+    },
+    "temas": {
+      "101": "Duelo / Pérdida",
+      "102": "Adicciones",
+      "103": "Finanzas",
+      "104": "Crisis de Fe",
+      "105": "Crianza de hijos",
+      "106": "Bienestar Emocional",
+      "107": "Sanidad del Corazón",
+      "108": "Esperanza y Valor por la Vida",
+      "109": "Restauración y Crisis Matrimonial",
+      "111": "Crisis Familiar y Relaciones"
+    }
+  },
+  "consejeros": [
+    {
+      "id": "1",
+      "nombre": "Andrés",
+      "apellido": "López",
+      "genero": 1,
+      "celular": "+521234567890",
+      "cargo": "Líder de Jóvenes",
+      "bio": "Dedicado a guiar a la nueva generación en su caminar espiritual.",
+      "foto": "images/profiles/andres.png",
+      "categorias": [1, 6, 7],
+      "temas": [104, 110, 111]
+    },
+    {
+      "id": "2",
+      "nombre": "Elena",
+      "apellido": "García",
+      "genero": 2,
+      "celular": "+521098765432",
+      "cargo": "Consejera Matrimonial",
+      "bio": "Apasionada por la restauración familiar y la sanidad emocional.",
+      "foto": "images/profiles/elena.png",
+      "categorias": [2, 3, 8],
+      "temas": [107, 109, 111]
+    },
+    {
+      "id": "3",
+      "nombre": "Marcos",
+      "apellido": "Pérez",
+      "genero": 1,
+      "celular": "+521122334455",
+      "cargo": "Pastor de Familia",
+      "bio": "Ayudando a padres e hijos a construir puentes de comunicación.",
+      "foto": "images/profiles/marcos.png",
+      "categorias": [1, 3, 4, 5],
+      "temas": [105, 109, 111]
+    }
+  ]
+}

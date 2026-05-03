@@ -109,7 +109,7 @@ main {
 }
 
 .main-header h1 {
-    font-size: 1.02rem; /* Tamaño exacto solicitado */
+    font-size: 1.05rem; /* Tamaño para computadora */
     font-weight: 700;
     line-height: 1.2;
     margin: 0;
@@ -386,7 +386,7 @@ main {
 }
 
 @media (max-width: 600px) {
-    .main-header h1 { font-size: 1rem; } /* Mantener pequeño en móvil */
+    .main-header h1 { font-size: 1.02rem; } /* Tamaño para celulares */
     .counselors-grid { grid-template-columns: 1fr; }
 }
 
